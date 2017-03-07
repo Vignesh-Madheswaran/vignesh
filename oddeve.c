@@ -3,9 +3,9 @@ int main()
 {
 int a;
 scanf("%d",&a);
-if(a>=1)
-printf("/n%d",a%100);
+if(a%2==0)
+printf("Even");
 else
-printf("0");
+printf("odd");
 return 0;
 }
